@@ -1,0 +1,44 @@
+:root {
+    --grey: #fafafa;
+    --white: #ffffff;
+    --blue: #0095f6;
+}
+.a{
+    color: var(--blue);
+}
+.bg-grey {
+    background-color: var(--grey);
+}
+.bg-light{
+    background-color: var(--white) !important
+}
+.navbar{
+    min-height: 5rem;
+}
+i.lead{
+    font-size: 1.8rem;
+}
+.imagen-de-perfil{
+    background-image: url(img/anime.jpg);
+    background-size: cover;
+    background-color: rgb(207, 207, 207);
+    width: 3rem;
+    height: 3rem;
+}
+.navbar-collapse {
+    flex-grow: 0;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.py-6{
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+.stories-container{
+    height: 190px;
+    overflow-y: auto;
+}
+.tdt{
+    font-size: 11px;
+}
